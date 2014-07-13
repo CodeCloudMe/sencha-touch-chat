@@ -48,7 +48,7 @@ To start chat server:
 	$ node ChatServer.js
 
 
-Go to your main directory (if you are in nodejs, "cd ../").
+Go to your main directory in another terminal window (not one running your node server and start the sencha app) (if you were to open the new window to nodejs, "cd ../" to the main directory).
 
 Now run 
 	$ sencha web start
