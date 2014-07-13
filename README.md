@@ -47,6 +47,13 @@ To start chat server:
 	$ node ChatServer.js
 
 
+Go to your main directory (if you are in nodejs, "cd ../").
+
+Now run sencha web start
+
+Navigate to http://localhost:1841
+
+Chat
 ## Customization
 
 This project uses http://localhost for the app itself and http://localhost:3333 as WebSocket port. This is hardcoded in the following files;
