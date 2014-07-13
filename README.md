@@ -11,15 +11,16 @@ Example chat application based on [Sencha Touch 2.3.1](http://www.sencha.com/pro
 ### Go to your webserver's document root:
 
 	$ cd /var/www
+	(or your app folder on Desktop)
 
-In this README.md we'll assume that the location of this folder is /var/www. Naturally it will vary.
+In this README.md we'll assume that the location of this folder is /var/www. Naturally it will vary (maybe app folder on Desktop).
 
 
 ### Clone this project from GitHub:
 
 	$ git clone https://github.com/rzen/sencha-touch-chat.git
 
-Clone repo to your apache document root. 
+If you're deploying to linux server: Clone repo to your apache document root. 
 
 
 ### Build the application
@@ -32,9 +33,9 @@ Clone repo to your apache document root.
 Download from http://nodejs.org/download/ and follow download and installation instructions.
 
 
-### Install Socket.IO:
+### Install Socket.IO (from main repo directory):
 
-	$ cd /var/www/sencha-touch-chat/nodejs
+	$ cd nodejs
 	$ npm install socket.io
 
 
@@ -49,11 +50,14 @@ To start chat server:
 
 Go to your main directory (if you are in nodejs, "cd ../").
 
-Now run sencha web start
+Now run 
+	$ sencha web start
 
 Navigate to http://localhost:1841
 
 Chat
+
+
 ## Customization
 
 This project uses http://localhost for the app itself and http://localhost:3333 as WebSocket port. This is hardcoded in the following files;
